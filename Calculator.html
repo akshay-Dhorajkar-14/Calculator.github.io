@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body>
+<script>
+var calculator = true;
+while(calculator == true){
+var choice = parseInt(window.prompt('Select any one number from the following : \n 1)Add \n 2)Sub \n 3)Mul \n 4)Div \n 5)Exit'));
+if(choice == 1){
+    var num1=parseInt(window.prompt('Enter the First number :'));
+    var num2= parseInt(window.prompt('Enter the Second number :'));
+    window.alert("Addition of two number is :" + (num1+num2))
+}else if(choice == 2){
+    var num1=parseInt(window.prompt('Enter the First number :'));
+    var num2= parseInt(window.prompt('Enter the Second number :'));
+    window.alert("Subtraction of two number is :" + (num1-num2))
+}else if(choice == 3){
+    var num1=parseInt(window.prompt('Enter the First number :'));
+    var num2= parseInt(window.prompt('Enter the Second number :'));
+    window.alert("Multiplication of two number is :" + (num1*num2))
+}else if(choice == 4){
+    var num1=parseInt(window.prompt('Enter the First number :'));
+    var num2= parseInt(window.prompt('Enter the Second number :'));
+    window.alert("Divison of two number is :" + (num1/num2))
+}else if(choice == 5){
+    window.alert("Thanks for using this calculator, visit again :")
+calculator = false;
+}else{
+    alert("The number you entered is incorrect. !")
+}
+}
+
+
+
+
+
+</script>
+   
+
+
+</script>
+</body>
+</html>
